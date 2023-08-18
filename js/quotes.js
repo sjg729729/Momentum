@@ -39,6 +39,14 @@ const quotes = [
     quote: "나를 죽이지 못하는 것은 나를 강하게 만든다.",
     author: "프리드리히 니체",
   },
+  {
+    quote: "인생은 고통이다",
+    author: "김종필",
+  },
+  {
+    quote: "Simple is the best",
+    author: "최재웅",
+  },
 ];
 
 const quote = document.querySelector("#quote span:first-child");
