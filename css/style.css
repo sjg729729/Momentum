@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&family=Nanum+Pen+Script&display=swap");
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 100%;
+}
+
+input[type="text"] {
+  text-align: center;
+  width: 30vw;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgb(233, 233, 233);
+}
+
+li span {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.411);
+  margin-bottom: 3px;
+  width: 20vw;
+}
+li button {
+  border: 0;
+  background-color: transparent;
+}
+
+span + button {
+  color: blue;
+}
+
+input[type="submit"] {
+  border: 0;
+  border-radius: 15px;
+  background-color: white;
+}
+
+#login-form {
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+#greeting {
+  text-align: center;
+  color: lightgrey;
+  font-family: "Bagel Fat One", cursive;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+#todo-list {
+  display: grid;
+  place-content: center;
+  color: lightgrey;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  color: lightgray;
+  font-size: 60px;
+  font-family: "Bagel Fat One", cursive;
+}
+
+#weather {
+  position: absolute;
+  /* top: 0; */
+  top: 10px;
+  right: 10px;
+  color: lightgrey;
+}
+
+#quote {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 80vw;
+  text-align: center;
+  transform: translate(-50%);
+  color: lightgrey;
+  font-family: "Diphylleia", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#log-out {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 0;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.quote-span {
+  margin-right: 10px;
+}
